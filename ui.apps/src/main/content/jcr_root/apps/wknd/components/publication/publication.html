@@ -1,0 +1,50 @@
+<!--/* 
+<h2>${properties.title}</h2>
+<div data-sly-list.bookMultifield="${resource.getChildren}">
+
+    <div data-sly-test="${bookMultifield.name =='books'}"> 
+    <ul class="cmp-publications__data" data-sly-list.books="${bookMultifield.getChildren}">
+            
+            <li>${books.title2}</li><span> | </span>
+            <li>${books.date}</li>
+            <br/>
+            <li>${books.description}</li>
+            <br/><br/>
+                
+    </ul>
+    </div>
+</div> */-->
+
+<sly data-sly-use.model="com.adobe.aem.guides.wknd.core.models.Publication"
+    data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html">
+
+
+    <p>${model.title}</p>
+
+    <!--/* <div data-sly-list.item="${model.books}">
+
+   
+
+        <p>Name: ${item.title2}</p>
+
+        <p>Date: ${item.date}</p>
+
+        <p>Description: ${item.description}</p>
+
+
+
+    </div> */-->
+
+    <ul class="cmp-publications__data" data-sly-list.item="${model.books}">
+            
+            <li>${item.title2}</li><span> | </span>
+            <li>${item.date}</li>
+            <br/>
+            <li>${item.description}</li>
+            <br/><br/>
+                
+    </ul>
+
+</sly>
+    
+    

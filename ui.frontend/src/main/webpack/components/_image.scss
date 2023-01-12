@@ -1,0 +1,20 @@
+.cmp-image {}
+.cmp-image__link {}
+.cmp-image__image {}
+.cmp-image__title {}
+.image{
+    &.cmp-image-logo{
+        .cmp-image{
+            border: 20px solid green;
+            border-radius: 138px;
+            margin-bottom: 15px;
+        }
+        .cmp-image__image{
+            border-radius: 100px;
+            margin-bottom: -7px;
+        }
+        
+        
+        }
+
+    }

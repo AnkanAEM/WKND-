@@ -1,0 +1,10 @@
+<sly
+data-sly-use.model="com.adobe.aem.guides.wknd.core.models.ContentReaderOne"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html">
+<div class="cmp-container__card" data-sly-list.item="${model.content}">
+    <div> ${item.title @context='html'} </div>
+    <div>${item.description @context='html'}</div>
+    <div> ${item.date @context='html'} </div>
+</div>
+
+</sly>

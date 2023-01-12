@@ -1,0 +1,18 @@
+
+<sly data-sly-use.model="com.adobe.aem.guides.wknd.core.models.Try"
+
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+
+   <sly data-sly-test="${!model.empty}">
+   <div class="cmp-try">
+   <div class="cmp-try__name">${model.name @context='html'}</div>
+   <div class="cmp-try__headlines--math">${model.headlines @context='html'}</div>
+   </div>
+
+   <!--/* <div class="cmp-text_occupations">${model.occupations @context='html'}</div> */-->
+
+
+
+   </sly>
+
+   </sly>

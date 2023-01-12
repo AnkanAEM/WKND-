@@ -1,0 +1,31 @@
+.cmp-carousel {}
+.cmp-carousel__content {}
+.cmp-carousel__item {}
+.cmp-carousel__actions {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
+}
+.cmp-carousel__action {
+    margin: 10px 2px;
+    background-color: #c2c2c2;
+}
+.cmp-carousel{
+    &.cmp-carousel-margin1{
+        .cmp-carousel {
+            margin: 10px;
+        }
+
+    }
+}
+.cmp-carousel__action--disabled {}
+.cmp-carousel__action--previous {
+}
+.cmp-carousel__action--next {}
+.cmp-carousel__action--pause {}
+.cmp-carousel__action--play {}
+.cmp-carousel__action-icon {}
+.cmp-carousel__action-text {}
+.cmp-carousel__indicators {}
+.cmp-carousel__indicator {}

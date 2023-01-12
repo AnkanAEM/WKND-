@@ -1,0 +1,18 @@
+.cmp-text {}
+.cmp-text__paragraph {}
+
+.text{
+    &.cmp-text-center-align{
+        text-align: center;
+        .cmp-text {
+            text-align: center;
+        }
+    }
+}
+
+.text{
+    &.cmp-text-font1{
+        font-family: papyrus;
+
+    }
+}

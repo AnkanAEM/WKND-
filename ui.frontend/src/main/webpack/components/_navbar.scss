@@ -1,0 +1,101 @@
+.cmp-navbar{
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+        &__primary {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+    
+        }
+
+
+        &__primary >div {
+                
+                background-color: #ccc;
+                margin: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+        }
+
+        &__hrline-v1{
+            height:.5vh;
+        }
+
+        &__logo{
+            
+                width: 15vw;
+                border-right: 2px solid rgba(0, 0, 0, 0.436);
+            
+                &-img1{
+                    width: 10vw;
+                    margin-top: 3vw;
+                    margin-left: 2vw;
+                    border:5px solid blue ;
+                    border-radius: 125px;
+
+
+                    -webkit-animation-name: spin;
+                    -webkit-animation-duration: 4000ms;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-timing-function: linear;
+                
+                    -moz-animation-name: spin;
+                    -moz-animation-duration: 4000ms;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-timing-function: linear;
+                
+                    -ms-animation-name: spin;
+                    -ms-animation-duration: 4000ms;
+                    -ms-animation-iteration-count: infinite;
+                    -ms-animation-timing-function: linear;
+                
+                    animation-name: spin;
+                    animation-duration: 6000ms;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                
+                    @-ms-keyframes spin { 
+                        from { 
+                            -ms-transform: rotate(0deg); 
+                        } to { 
+                            -ms-transform: rotate(360deg); 
+                        }
+                    }
+                    @-moz-keyframes spin { 
+                        from { 
+                            -moz-transform: rotate(0deg); 
+                        } to { 
+                            -moz-transform: rotate(360deg); 
+                        }
+                    }
+                    @-webkit-keyframes spin { 
+                        from { 
+                            -webkit-transform: rotate(0deg); 
+                        } to { 
+                            -webkit-transform: rotate(360deg); 
+                        }
+                    }
+                    @keyframes spin { 
+                        from { 
+                            transform: rotate(0deg); 
+                        } to { 
+                            transform: rotate(360deg); 
+                        }
+                    }
+
+                }
+
+                &-slogan {
+                    margin-top: 3vw;
+                    text-align: center;
+                    font-size: 2vw;
+                    font-family: ui-rounded;
+                    color: #638495;
+                }
+            }
+        
+
+}

@@ -1,0 +1,46 @@
+.button{
+    padding: 0 16px;
+    min-width: 150px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.cmp-button {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 2px solid #0174a9;
+    line-height: 36px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0174a9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    margin-right: 8px;
+    margin-bottom: 24px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+
+.cmp-button:hover {
+    background: #0174a9;
+    color: #fff
+}
+.cmp-button-red{
+.cmp-button{
+    background-color: rgb(207, 116, 116);
+    color:black;
+
+}}
+.cmp-button-red:hover{
+   .cmp-button{
+       background-color: red;
+   }
+}
+// .cmp-button__text {}
+
+// .cmp-button__icon {}
+//.cmp-button__icon--myIcon {}
+
