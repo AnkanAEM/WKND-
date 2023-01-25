@@ -1,0 +1,17 @@
+<div data-sly-use.model = "com.adobe.aem.guides.wknd.core.models.UserDetail">
+    <h2>Hello</h2>
+    <h1> ${model.title}</h1>
+    <div data-sly-list.users="${model.users}">
+        <div> Name of the user is ${users.name}</div>
+        <div> Age of ${users.name} is ${users.age}</div>
+
+        <div>========Here goes the Hobbies===========</div>
+        <div data-sly-list.hobbies="${users.hobbies}">
+            <div> Hobby of ${users.name} is ${hobbies.like}</div>
+            <div> And the reason for this hobby is ${hobbies.reason}</div>
+
+        </div>
+
+    </div>
+    
+</div>
